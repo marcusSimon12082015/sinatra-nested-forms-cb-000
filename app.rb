@@ -13,6 +13,7 @@ module FormsLab
     end
 
     post '/pirates' do
+      binding.pry
       @pirate = params[:pirate]
     end
   end
