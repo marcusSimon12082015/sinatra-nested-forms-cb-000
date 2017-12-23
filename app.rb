@@ -15,6 +15,7 @@ module FormsLab
     post '/pirates' do
       binding.pry
       @pirate = params[:pirate]
+      erb :"/pirates/show"
     end
   end
 end
